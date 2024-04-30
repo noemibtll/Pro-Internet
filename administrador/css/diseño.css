@@ -1,0 +1,47 @@
+.btn-bd-primary {
+    --bs-btn-font-weight: 600;
+    --bs-btn-color: var(--bs-white);
+    --bs-btn-bg: var(--bd-violet-bg);
+    --bs-btn-border-color: var(--bd-violet-bg);
+    --bs-btn-hover-color: var(--bs-white);
+    --bs-btn-hover-bg: #{shade-color($bd-violet, 10%)};
+    --bs-btn-hover-border-color: #{shade-color($bd-violet, 10%)};
+    --bs-btn-focus-shadow-rgb: var(--bd-violet-rgb);
+    --bs-btn-active-color: var(--bs-btn-hover-color);
+    --bs-btn-active-bg: #{shade-color($bd-violet, 20%)};
+    --bs-btn-active-border-color: #{shade-color($bd-violet, 20%)};
+  }
+
+.card-img-top {
+    display: block;
+    width: 10%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+.login{
+
+  background-image: linear-gradient(to left,
+  #485563b6,#15191f);}
+.contenedor_login{
+  
+  width: 60.33%;
+  margin: 0 auto;
+  background-color: #0000007e;  
+  padding: 10px;
+
+}
+        img {
+        height: 80%;
+    }
+.titulo-login{
+      color: rgb(255, 255, 255);
+      text-align: center;
+      font-size: 40px;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+     
+    }
+  .imagen_banners{
+    width: 600px;
+    height: 200px;
+  
+  }
